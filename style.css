@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  background-color:#d76828;
+}
+
+.navbar{
+  background: #f75b00;
+  background: linear-gradient(346deg,rgba(247, 91, 0, 1) 37%, rgba(133, 58, 15, 1) 64%);
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 17vh;
+}
+
+.navbar a{
+  color: rgb(232, 230, 230);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(119, 119, 119); 
+}
+
+.Empanada{
+  font-family: "Alfa Slab One", serif;
+  font-size: 25px;
+  width: 100%; 
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .slider-box {
+    width: 1280px;
+    height: 720px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider-box ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 700%;
+    animation: slide 35s infinite alternate ease-in-out;
+  }
+  
+  .slider-box li {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-box img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    display: block;
+  }
+  
+  @keyframes slide {
+    0%    { margin-left: 0; }
+    12.5% { margin-left: 0; }
+  
+    14.3% { margin-left: -100%; }
+    26.8% { margin-left: -100%; }
+  
+    28.6% { margin-left: -200%; }
+    41.1% { margin-left: -200%; }
+  
+    42.9% { margin-left: -300%; }
+    55.4% { margin-left: -300%; }
+  
+    57.2% { margin-left: -400%; }
+    69.7% { margin-left: -400%; }
+  
+    71.5% { margin-left: -500%; }
+    84%   { margin-left: -500%; }
+  
+    85.8% { margin-left: -600%; }
+    100%  { margin-left: -600%; }
+  }
+
+#somos h1{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  background-color: rgba(255, 168, 7, 0.89);
+  border-radius: 70px;
+  font-style: italic;
+  font-family:"Bangers", system-ui;
+  color: brown;
+  padding: 30px;
+  border: 5px solid rgb(182, 16, 49);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+#somos p{
+  text-align: justify;
+  padding: 20px;
+  margin: 5px;
+  font-family: "Bodoni Moda", serif;
+}
+
+div.ubicacion{
+  border: 3px solid rgb(13, 1, 1);
+  background-color: rgba(252, 195, 89, 0.776);
+  text-align: center;
+  font-style: oblique;
+  color: black;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 40px;
+}
+
+form h2{
+  font-size: 30px;
+  font-family:"Bangers", system-ui;
+  padding: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase; 
+}
+
+.btn{
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+}
+
+.btn-green{
+  color: white;
+  background-color: #3CC93F;
+}
+.btn-green:hover{
+  background-color: #37B839;	
+}
+.btn-green:active{
+  background-color: #29962A;
+}
+
+form{
+  margin: 23px auto;
+  border: black solid 2px ;
+  width: 460px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+input,textarea {
+  outline: none;
+  border: 0;
+  width: 100%;
+}
+
+.formulario{
+  border: solid 1px #999;
+  padding: 10px;
+}
+
+.formulario:focus{
+  border-color: #e26d19;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: rgb(111 41 0);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elem {
+  list-style: none;
+}
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
