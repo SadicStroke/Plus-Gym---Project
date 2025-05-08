@@ -1,0 +1,65 @@
+*{
+    margin: 0px ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+background-color: black;
+}
+
+.navbar{
+    background: #f75b00;
+    background: linear-gradient(346deg,rgba(247, 91, 0, 1) 37%, rgba(133, 58, 15, 1) 64%);
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 17vh;
+    object-fit: cover;
+  }
+
+  .navbar a{
+    color: rgb(232, 230, 230);
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: rgb(119, 119, 119); 
+  }
+  
+  .Empanada{
+    font-family: "Alfa Slab One", serif;
+    font-size: 25px;
+    width: 100%; 
+  }
+
+  .instalaciones{
+    text-align: center;
+    padding: 30px;
+    font-family: "Alfa Slab One", serif;;
+    font-size: 30px;
+    font-style: oblique;
+    color: whitesmoke;
+    border: white solid 2px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    object-fit: cover;
+  }
+
+.gallery img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.gallery{
+width: 90%;
+max-width: 1100px;
+margin: 40px auto;
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+

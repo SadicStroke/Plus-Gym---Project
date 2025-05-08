@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  background-color:#d76828;
+}
+
+.navbar{
+  background: #f75b00;
+  background: linear-gradient(346deg,rgba(247, 91, 0, 1) 37%, rgba(133, 58, 15, 1) 64%);
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 17vh;
+}
+
+.navbar a{
+  color: rgb(232, 230, 230);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(119, 119, 119); 
+}
+
+.Empanada{
+  font-family: "Alfa Slab One", serif;
+  font-size: 25px;
+  width: 100%; 
+}
+
+.card {
+    border: black solid 2px;
+    margin: 50px;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: px;
+}
+
+.card .content {
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+div.licha{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+}
+
+.card p{
+  text-align: center;
+  font-size: 25px;
+  font-family:"Bangers", system-ui; ;
+}
+
+.card .footer {
+    background-color: rgb(255, 166, 0);
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
