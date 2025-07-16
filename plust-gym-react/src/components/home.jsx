@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import '../estilos/Home.css';
+import '../styless/Home.css';
 import homeImage from '../assets/img/Plus Gym Logo.png'; 
 
 function Home({ titulo, subtitulo, imagen }) {

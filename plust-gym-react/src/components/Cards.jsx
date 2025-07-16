@@ -1,5 +1,5 @@
 import Card from './card';
-import '../estilos/Card.css';
+import '../styless/Card.css';
 import img1 from '../assets/img/Ivan Labonia.png';
 import img2 from '../assets/img/Licha.png';
 

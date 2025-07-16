@@ -1,4 +1,4 @@
-import '../estilos/Gallery.css';
+import '../styless/Gallery.css';
 import img1 from '../assets/img/Gimnasio 1.jpg';
 import img2 from '../assets/img/Gimnasio 2.jpg';
 import img3 from '../assets/img/Gimnasio 3.jpg';

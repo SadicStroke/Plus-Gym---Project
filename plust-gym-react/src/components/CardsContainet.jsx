@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'estilos/Card';
-import '../estilos/CardsContainer.css';
+import '../styless/CardsContainer.css';
 
 function CardsContainer() {
   const cardsData = [
