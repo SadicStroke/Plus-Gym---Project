@@ -1,20 +1,24 @@
 import PropTypes from 'prop-types';
-import '../styles/Card.css';
+import '../estilos/Card.css';
 
-export default function Card({ image, title, text }) {
+function Card({ imagen, titulo, texto }) {
   return (
-    <div className="card">
-      <img src={image} alt={title} className="card-img-top" />
-      <div className="card-body">
-        <h5>{title}</h5>
-        <p>{text}</p>
+    <div className="col-md-4 mb-4">
+      <div className="card h-100 shadow-sm">
+        <img src={imagen} className="card-img-top" alt={titulo} />
+        <div className="card-body">
+          <h5 className="card-title">{titulo}</h5>
+          <p className="card-text">{texto}</p>
+        </div>
       </div>
     </div>
   );
 }
 
 Card.propTypes = {
-  image: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  imagen: PropTypes.string.isRequired,
+  titulo: PropTypes.string.isRequired,
+  texto: PropTypes.string.isRequired,
 };
+
+export default Card;

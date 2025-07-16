@@ -1,0 +1,26 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 2rem;
+}
+
+.image-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-content img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
