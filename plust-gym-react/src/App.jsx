@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Cards from './components/Cards';
-import Gallery from './components/Gallery';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './components/navbar.jsx';
+import Home from './components/home.jsx';
+import Cards from './components/Cards.jsx';
+import Gallery from './components/gallery.jsx';
+import Contact from './components/contact.jsx';
+import Footer from './components/footer.jsx';
 
 function App() {
   return (
