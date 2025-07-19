@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import '../styless/Card.css';
+import '../styless/Staff.css';
 
 function Card({ imagen, titulo, texto }) {
   return (
