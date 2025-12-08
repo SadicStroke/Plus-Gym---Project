@@ -1,16 +1,15 @@
 {
-  "name": "plust-gym-react",
+  "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SadicStroke.github.io/Plus-Gym---Project",
+ 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "prop-types": "^15.8.1",
